@@ -1,4 +1,37 @@
 <style>
+    .justify-text{
+        text-align: justify;
+    }
+    .footer-contact-us {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+    }
+    .footer-contact-us li {
+        position: relative;
+        padding-left: 30px;
+    }
+    .footer-contact-us li {
+        margin-bottom: 8px;
+        font-size: 15px;
+    }
+    .footer-contact-us li span {
+        position: absolute;
+        left: 0;
+        top: 4px;
+        color: #f74780;
+        font-size: 20px;
+    }
+    .footer-contact-us li a {
+        position: relative;
+    }
+    .footer-contact-us li a {
+        -webkit-transition: all 0.5s;
+        transition: all 0.5s;
+    }
+    /*end new theme */
+
+
     .products_page .category {
         padding: 20px 0 20px 2px;
     }
