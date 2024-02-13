@@ -135,7 +135,7 @@
 							    	{{-- <li class="nl-simple" aria-haspopup="true"><a href="{{ url('downloads') }}" class="h-link">Downloads</a></li> --}}
 
 						          	<!-- SIMPLE NAVIGATION LINK -->
-							    	<li class="nl-simple" aria-haspopup="true"><a href="{{ url('contact-us') }}" class="h-link">Contact Us</a></li>
+							    	{{-- <li class="nl-simple" aria-haspopup="true"><a href="{{ url('contact-us') }}" class="h-link">Contact Us</a></li> --}}
 
 								    <!-- SIGN UP BUTTON -->
 								    <li class="nl-simple" aria-haspopup="true">
