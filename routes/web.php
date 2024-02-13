@@ -7,6 +7,7 @@ use App\Http\Controllers\admin\PagesController;
 use App\Http\Controllers\admin\ProductController;
 use App\Http\Controllers\admin\SettingController;
 use App\Http\Controllers\web\HomeController;
+use Illuminate\Support\Facades\Artisan;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -38,7 +39,7 @@ Route::prefix('business-enquiry')->group(function(){
 Route::get('about-us', [HomeController::class,'about']);
 Route::get('mission-vision-values', [HomeController::class,'missionVisonValues']);
 Route::get('quality-policy', [HomeController::class,'qualityPolicy']);
-Route::get('global-presence', [HomeController::class,'globalPresence']);
+Route::get('history-development', [HomeController::class,'globalPresence']);
 
 // Route::get('category/{slug}', [HomeController::class,'category']);
 
@@ -123,4 +124,18 @@ Route::prefix('admin')->group(function(){
 
         Route::get('logout', [AuthController::class,'logout']);
     });
+});
+
+Route::get('site-optimize', function () {
+    Artisan::call("optimize");
+});
+Route::get('site-optimize-clear', function () {
+    Artisan::call("optimize:clear");
+});
+Route::get('storage-generate', function () {
+    Artisan::call("storage:link");
+});
+
+Route::get('db-migration', function () {
+    Artisan::call("migrate");
 });

@@ -44,12 +44,12 @@ class HomeController extends Controller
     }
 
     public function about(){
-        $data['_title'] = 'History & Development';
+        $data['_title'] = 'About Company';
         return view('web.about')->with($data);
     }
 
     public function missionVisonValues(){
-        $data['_title'] = 'Mission, Vision & Values';
+        $data['_title'] = 'Vision & Mission';
         return view('web.aboutmiviva')->with($data);
     }
 
@@ -59,7 +59,7 @@ class HomeController extends Controller
     }
 
     public function globalPresence(){
-        $data['_title'] = 'Global Presence';
+        $data['_title'] = 'History & Development';
         return view('web.aboutglobal')->with($data);
     }
 

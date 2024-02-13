@@ -11,7 +11,7 @@
                 <div class="section-title mb-70">	
 
                     <!-- Title -->	
-                    <h2 class="s-52 w-700">History & Development</h2>
+                    <h2 class="s-52 w-700">{{ $_title }}</h2>
 
                 </div>	
             </div>
@@ -31,9 +31,8 @@
                         <!-- TABLE HEADER -->
                         <div class="pricing-table-header">
                             <div class="price">								
-                                <p class="color--grey">Our history began in the year 2010 with the start of a first company named Mecoson Labs as a local pharmaceutical trading company. Through the years, our business has developed from a trading company to leading global company with the help of our visionary leaders and expert team. The company is having privilege of availing his valuable guidance from time to time.</p>
-                                <p class="color--grey">Step by step the company has progressed very fast and expanded its business from trading and marketing to manufacturing and exporting of pharmaceutical products and become one of the leading pharmaceutical company in India and made its name in Medical and Healthcare Sector. </p> 
-                                <p class="color--grey">Utilizing experience and success in the domestic market, in the year 2017, we have extended our business from domestic market to international market. We have expanded our range of products which includes Pharmaceutical Formulations, Dental Products and Instruments, Medical and Surgical Disposables, APIs and Chemicals and Contract Manufacturing.</p>
+                                <p class="color--grey">Mecoson Pharmaceuticals Private Limited is one of the fastest growing pharmaceutical company located at Pipodara, Surat, India. The company engaged in manufacturing wide range of pharmaceutical formulation in forms Tablets, Capsules and Oral Liquid. We have all the major utilities to produce highest quality products.</p>
+                                <p class="color--grey">Accumulated experience in marketing & manufacturing of pharmaceuticals products, innovative approach of managing &optimizing business processes allowed us to become actively present in domestic &international market. We offer a highest quality products, most competitive price & timely delivery to our valuable customers globally.</p>
                             </div>
                         </div>
 

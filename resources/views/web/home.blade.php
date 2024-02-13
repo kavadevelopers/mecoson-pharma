@@ -58,10 +58,10 @@
 							<div class="section-title mb-70">	
 
 								<!-- Title -->	
-								<h2 class="s-50 w-700">Build a customer-centric marketing strategy</h2>	
+								<h2 class="s-50 w-700">Mecoson Pharmaceuticals, manufacturer of Pharmaceutical Finished Formulations </h2>	
 
 								<!-- Text -->	
-								<p class="s-21 color--grey">Ligula risus auctor tempus magna feugiat lacinia.</p>
+								{{-- <p class="s-21 color--grey">Ligula risus auctor tempus magna feugiat lacinia.</p> --}}
 									
 							</div>	
 						</div>
@@ -94,7 +94,7 @@
 
 									<!-- Text -->
 									<div class="fbox-txt">
-										<h6 class="s-20 w-700">Market Research</h6>
+										<h6 class="s-20 w-700">Tablets </h6>
 										<p>Luctus augue egestas undo ultrice and quisque lacus</p>
 									</div>
 
@@ -123,7 +123,7 @@
 
 									<!-- Text -->
 									<div class="fbox-txt">
-										<h6 class="s-20 w-700">User Experience</h6>
+										<h6 class="s-20 w-700">Capsules</h6>
 										<p>Luctus augue egestas undo ultrice and quisque lacus</p>
 									</div>
 
@@ -152,7 +152,7 @@
 
 									<!-- Text -->
 									<div class="fbox-txt">
-										<h6 class="s-20 w-700">Digital Marketing</h6>
+										<h6 class="s-20 w-700">Syrup </h6>
 										<p>Luctus augue egestas undo ultrice and quisque lacus</p>
 									</div>
 
@@ -181,7 +181,7 @@
 
 									<!-- Text -->
 									<div class="fbox-txt">
-										<h6 class="s-20 w-700">SEO Services</h6>
+										<h6 class="s-20 w-700">Third Party Manufacturing</h6>
 										<p>Luctus augue egestas undo ultrice and quisque lacus</p>
 									</div>
 

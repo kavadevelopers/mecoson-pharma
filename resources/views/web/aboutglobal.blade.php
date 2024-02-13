@@ -17,13 +17,13 @@
             </div>
             <div class="col-md-12 col-lg-12">
                 <div>
-                    <p class="color--grey">Global presence in all our current and potential markets is an essential element of our business strategy. We are supplying our products in more than 30 countries worldwide and increasing the numbers day by day. Below is the list of some countries where we are supplying our products. </p>
-                    <p class="color--grey">Sri Lanka, UAE, Kenya, Zimbabwe, Uganda, Ivoire Coast, Ghana, Nepal, Australia, Singapore, Malaysia, USA, Jamaica, Peru, Seychelles, Maldives, Saudi Arabia, Kuwait, Qatar, Iraq, Germany, Netherlands, Tanzania, Namibia, Botswana, Ethiopia, Etc.</p>     
+                    <p class="color--grey">Mecoson has been started as a local pharmaceutical trading company and through the years, our business has developed from a trading company to global company with the help of our visionary leaders and expert team. The company is having privilege of availing his valuable guidance from time to time.</p>
+                    <p class="color--grey">Step by step the company has progressed very fast and expanded its business from trading and marketing to manufacturing and exporting of pharmaceutical products and become one of the leading pharmaceutical company in India and made its name in Medical and Healthcare Sector. </p>     
                 </div>	
             </div>
-            <div class="col-md-12 col-lg-12">
+            {{-- <div class="col-md-12 col-lg-12">
                 <img style="max-width: 100%;" src="{{ url('themes/web/img/world_blank.jpg') }}" />
-            </div>
+            </div> --}}
         </div>
     </div>
 </section>

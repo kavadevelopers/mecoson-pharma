@@ -83,7 +83,7 @@
 
 
 				 	<!-- NAVIGATION MENU -->
-				  	<div class="wsmainfull menu clearfix">
+				  	<div class="wsmainfull menu clearfix scroll">
 	    				<div class="wsmainwp clearfix">
 
 
@@ -107,10 +107,10 @@
 	        						<!-- DROPDOWN SUB MENU -->
 						          	<li aria-haspopup="true"><a href="{{ url('about-us') }}" class="h-link">About Us <span class="wsarrow"></span></a>
 	            						<ul class="sub-menu">
-	            							<li aria-haspopup="true"><a href="{{ url('about-us') }}">History & Development</a></li>
-	            							<li aria-haspopup="true"><a href="{{ url('mission-vision-values') }}">Mission, Vision & Values</a></li>
-	            							<li aria-haspopup="true"><a href="{{ url('quality-policy') }}">Quality Policy</a></li>
-	            							<li aria-haspopup="true"><a href="{{ url('global-presence') }}">Global Presence</a></li>	
+	            							<li aria-haspopup="true"><a href="{{ url('about-us') }}">About company</a></li>
+	            							<li aria-haspopup="true"><a href="{{ url('mission-vision-values') }}">Vision & Mission</a></li>
+	            							{{-- <li aria-haspopup="true"><a href="{{ url('quality-policy') }}">Quality Policy</a></li> --}}
+	            							<li aria-haspopup="true"><a href="{{ url('history-development') }}">History & Development</a></li>	
 						           		</ul>
 								    </li>
 									@if(count($categories) > 0)
@@ -131,7 +131,8 @@
 
 
 								    <!-- SIMPLE NAVIGATION LINK -->
-							    	<li class="nl-simple" aria-haspopup="true"><a href="{{ url('downloads') }}" class="h-link">Downloads</a></li>
+							    	<li class="nl-simple" aria-haspopup="true"><a href="{{ url('quality-policy') }}" class="h-link">Quality Policy</a></li>
+							    	{{-- <li class="nl-simple" aria-haspopup="true"><a href="{{ url('downloads') }}" class="h-link">Downloads</a></li> --}}
 
 						          	<!-- SIMPLE NAVIGATION LINK -->
 							    	<li class="nl-simple" aria-haspopup="true"><a href="{{ url('contact-us') }}" class="h-link">Contact Us</a></li>
@@ -190,11 +191,11 @@
 								<!-- Links -->
 								<ul class="foo-links clearfix">
 									<li><p><a href="{{ url('home') }}">Home</a></p></li>
-									<li><p><a href="{{ url('about-us') }}">About us</a></p></li>						
+									<li><p><a href="{{ url('about-us') }}">About Company</a></p></li>						
 									<li><p><a href="{{ url('mission-vision-values') }}">Vision & Mission</a></p></li>	
 									<li><p><a href="{{ url('quality-policy') }}">Quality Assurance</a></p></li>					
 									<li><p><a href="{{ url('products') }}">Products</a></p></li>			
-									<li><p><a href="{{ url('downloads') }}">Downloads</a></p></li>			
+									{{-- <li><p><a href="{{ url('downloads') }}">Downloads</a></p></li>			 --}}
 									<li><p><a href="{{ url('career') }}">Career</a></p></li>			
 									<li><p><a href="{{ url('contact-us') }}">Contact Us</a></p></li>	
 								</ul>
