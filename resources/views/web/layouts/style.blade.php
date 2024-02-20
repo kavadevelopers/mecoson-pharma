@@ -13,13 +13,13 @@
     }
     .footer-contact-us li {
         margin-bottom: 8px;
-        font-size: 15px;
+        font-size: 0.8rem;
     }
     .footer-contact-us li span {
         position: absolute;
         left: 0;
         top: 4px;
-        color: #f74780;
+        color: #058b8c;
         font-size: 20px;
     }
     .footer-contact-us li a {

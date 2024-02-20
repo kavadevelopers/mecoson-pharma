@@ -1,6 +1,10 @@
 
 
 <script>
+    $(function(){
+
+        $('#carouselExampleControls').carousel();
+    })
     function notifyF(msg,type){
         if (type == "msg") {
             Swal.fire({

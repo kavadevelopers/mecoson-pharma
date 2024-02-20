@@ -45,54 +45,7 @@
     </div>	   <!-- End container -->
 </section>
 
-<section id="faqs-3" class="gr--whitesmoke pt-100 faqs-section">				
-    <div class="container">
 
-
-        <!-- SECTION TITLE -->	
-        <div class="row justify-content-center">	
-            <div class="col-md-10 col-lg-9">
-                <div class="section-title mb-70">	
-
-                    <!-- Title -->	
-                    <h2 class="s-52 w-700">Milestones Reached</h2>	
-
-                </div>	
-            </div>
-        </div>
-
-
-        <!-- FAQs-3 QUESTIONS -->	
-        <div class="faqs-3-questions">
-            <div class="row">
-
-                <div class="about-time-line">
-                    <ul style="margin-top: 50px;">
-                        <li style="--accent-color:#41516C">
-                            <div class="date">2010</div>
-                            <div class="title">Wholesale Trading of Pharma Products</div>
-                        </li>
-                        <li style="--accent-color:#FBCA3E">
-                            <div class="date">2014</div>
-                            <div class="title">Established Marketing Company</div>
-                        </li>
-                        <li style="--accent-color:#E24A68">
-                            <div class="date">2017</div>
-                            <div class="title">Started Export of Pharma Products</div>
-                        </li>
-                        <li style="--accent-color:#1B5F8C">
-                            <div class="date">2021</div>
-                            <div class="title">Manufacturing Unit of Tablet, Capsule & Syrup</div>
-                        </li>
-                    </ul>
-                </div>
-
-            </div>  <!-- End row -->	
-        </div>	<!-- END FAQs-3 QUESTIONS -->	
-
-
-    </div>	   <!-- End container -->		
-</section>
 
 
 @stop

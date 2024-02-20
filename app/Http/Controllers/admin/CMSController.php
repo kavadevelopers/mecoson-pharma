@@ -6,6 +6,7 @@ use App\Helpers\CommonHelper;
 use App\Http\Controllers\Controller;
 use App\Models\CMSPagesModel;
 use App\Models\DownloadsModel;
+use App\Models\HomeLogoSliderModel;
 use App\Models\HomeSliderModel;
 use App\Models\MasterCategories;
 use Illuminate\Http\Request;
@@ -190,6 +191,52 @@ class CMSController extends Controller{
 	        return Redirect(CommonHelper::admin('cms/categories'));
         }else{
             return Redirect(CommonHelper::admin('cms/categories'));
+        }
+    }
+
+    public function homeProductSliderList(){
+        $data['_title'] = 'Home Product Slider';
+        $data['list']   = HomeLogoSliderModel::orderby('sort','asc')->get();
+        return view('admin.user.cms.home-product-slider',$data);
+    }
+
+    public function homeProductSliderSave(Request $rec){
+        $banner = "";
+        if ($rec->hasFile('banner')) {
+            $image      = $rec->file('banner');
+            $imgName   = microtime(true) . '.' . $image->getClientOriginalExtension();
+            if(Storage::disk('public_upload')->put('cms/homebanner/'.$imgName, file_get_contents($image))) {
+                $banner = $imgName;
+            }
+        }
+
+        $data = [
+            'image'             => $banner,
+            'sort'              => CommonHelper::isColValue($rec->order), 
+        ];
+
+        HomeLogoSliderModel::create($data);
+
+        Session::flash('success', 'Home Product Slider Added');
+	    return Redirect(CommonHelper::admin('cms/home-product-sliders'));
+    }
+
+    public function homeProductSliderDelete($item = false){
+        $row = HomeLogoSliderModel::find(decrypt($item));
+        if($item && $row){
+
+            if(Storage::disk('public_upload')->exists('cms/homebanner/'.$row->image)){
+                Storage::disk('public_upload')->delete('cms/homebanner/'.$row->image);
+            }
+
+            $row->delete();
+
+
+
+            Session::flash('success', 'Item Deleted');
+	        return Redirect(CommonHelper::admin('cms/home-product-sliders'));
+        }else{
+            return Redirect(CommonHelper::admin('cms/home-product-sliders'));
         }
     }
     

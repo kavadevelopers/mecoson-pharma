@@ -97,6 +97,12 @@ Route::prefix('admin')->group(function(){
                 Route::post('', [CMSController::class,'homeSlidersSave']);
             });
 
+            Route::prefix('home-product-sliders')->group(function(){
+                Route::get('', [CMSController::class,'homeProductSliderList']);
+                Route::get('{id}', [CMSController::class,'homeProductSliderDelete']);
+                Route::post('', [CMSController::class,'homeProductSliderSave']);
+            });
+
             Route::prefix('categories')->group(function(){
                 Route::get('', [CMSController::class,'categoriesList']);
                 Route::get('{id}', [CMSController::class,'categoriesDelete']);

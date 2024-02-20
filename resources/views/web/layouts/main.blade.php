@@ -8,14 +8,15 @@
   		<!-- SITE TITLE -->
 		<title>{{ isset($_title) ? $_title.' | ':'' }}{{ CommonHelper::setting('app_name') }}</title>
 							
-		<!-- FAVICON AND TOUCH ICONS -->
-		<link rel="shortcut icon" href="{{ url('themes/logos/favicon.png') }}" type="image/x-icon">
-		<link rel="icon" href="{{ url('themes/logos/favicon.png') }}" type="image/x-icon">
-		<link rel="apple-touch-icon" sizes="152x152" href="{{ url('themes/logos/favicon.png') }}">
-		<link rel="apple-touch-icon" sizes="120x120" href="{{ url('themes/logos/favicon.png') }}">
-		<link rel="apple-touch-icon" sizes="76x76" href="{{ url('themes/logos/favicon.png') }}">
-		<link rel="apple-touch-icon" href="{{ url('themes/logos/favicon.png') }}">
-		<link rel="icon" href="{{ url('themes/logos/favicon.png') }}" type="image/x-icon">
+		
+		<link rel="shortcut icon" href="{{ url('themes/logos/favicon/favicon-32x32.png') }}" type="image/x-icon">
+		<link rel="apple-touch-icon" sizes="180x180" href="{{ url('themes/logos/favicon/apple-touch-icon.png') }}">
+		<link rel="icon" type="image/png" sizes="32x32" href="{{ url('themes/logos/favicon/favicon-32x32.png') }}">
+		<link rel="icon" type="image/png" sizes="16x16" href="{{ url('themes/logos/favicon/favicon-16x16.png') }}">
+		<link rel="manifest" href="{{ url('themes/logos/favicon/site.webmanifest') }}">
+		<link rel="mask-icon" href="{{ url('themes/logos/favicon/safari-pinned-tab.svg') }}" color="#5bbad5">
+		<meta name="msapplication-TileColor" content="#da532c">
+		<meta name="theme-color" content="#ffffff">
 
 		<!-- GOOGLE FONTS -->
 		<link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700&amp;display=swap" rel="stylesheet">
@@ -40,6 +41,7 @@
 		<link href="{{ url('themes/pharma/css/animate.css') }}" rel="stylesheet">
 		<link href="{{ url('themes/pharma/css/pink-theme.css') }}" rel="stylesheet">
 		<link href="{{ url('themes/pharma/css/responsive.css') }}" rel="stylesheet">
+		{{-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" /> --}}
 		@include('web.layouts.style')
 	</head>
 
@@ -55,9 +57,9 @@
 
 		<!-- PRELOADER SPINNER
 		============================================= -->	
-		<div id="loading" class="loading--theme">
+		{{-- <div id="loading" class="loading--theme">
 			<div id="loading-center"><span class="loader"></span></div>
-		</div>
+		</div> --}}
 
 
 
@@ -89,13 +91,13 @@
 
 	    					<!-- HEADER BLACK LOGO -->
 	    					<div class="desktoplogo">
-	    						<a href="#hero-1" class="logo-black"><img src="{{ url('themes/logos/logo.png') }}" alt="logo"></a>
+	    						<a href="{{ url('') }}" class="logo-black"><img src="{{ url('themes/logos/logo.png') }}" alt="logo"></a>
 	    					</div>
 
 
 	    					<!-- HEADER WHITE LOGO -->
 	    					<div class="desktoplogo">
-	    						<a href="#hero-1" class="logo-white"><img src="{{ url('themes/logos/logo-footer	.png') }}" alt="logo"></a>
+	    						<a href="{{ url('') }}" class="logo-white"><img src="{{ url('themes/logos/logo-footer	.png') }}" alt="logo"></a>
 	    					</div>
 
 
@@ -111,6 +113,7 @@
 	            							<li aria-haspopup="true"><a href="{{ url('mission-vision-values') }}">Vision & Mission</a></li>
 	            							{{-- <li aria-haspopup="true"><a href="{{ url('quality-policy') }}">Quality Policy</a></li> --}}
 	            							<li aria-haspopup="true"><a href="{{ url('history-development') }}">History & Development</a></li>	
+	            							<li aria-haspopup="true"><a href="{{ url('quality-policy') }}">Quality Policy</a></li>	
 						           		</ul>
 								    </li>
 									@if(count($categories) > 0)
@@ -131,11 +134,11 @@
 
 
 								    <!-- SIMPLE NAVIGATION LINK -->
-							    	<li class="nl-simple" aria-haspopup="true"><a href="{{ url('quality-policy') }}" class="h-link">Quality Policy</a></li>
+							    	{{-- <li class="nl-simple" aria-haspopup="true"><a href="{{ url('quality-policy') }}" class="h-link">Quality Policy</a></li> --}}
 							    	{{-- <li class="nl-simple" aria-haspopup="true"><a href="{{ url('downloads') }}" class="h-link">Downloads</a></li> --}}
 
 						          	<!-- SIMPLE NAVIGATION LINK -->
-							    	{{-- <li class="nl-simple" aria-haspopup="true"><a href="{{ url('contact-us') }}" class="h-link">Contact Us</a></li> --}}
+							    	<li class="nl-simple" aria-haspopup="true"><a href="{{ url('contact-us') }}" class="h-link">Contact Us</a></li>
 
 								    <!-- SIGN UP BUTTON -->
 								    <li class="nl-simple" aria-haspopup="true">

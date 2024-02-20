@@ -8,6 +8,7 @@ use App\Http\Controllers\Controller;
 use App\Models\CMSPagesModel;
 use App\Models\ContactEnquiryModel;
 use App\Models\DownloadsModel;
+use App\Models\HomeLogoSliderModel;
 use App\Models\HomeSliderModel;
 use App\Models\MasterCategories;
 use App\Models\ProductEnquiryModel;
@@ -33,6 +34,7 @@ class HomeController extends Controller
     public function home(){
         $data['_title'] = 'Home';
         $data['banners'] = HomeSliderModel::orderby('sort','asc')->get();
+        $data['products'] = HomeLogoSliderModel::orderby('sort','asc')->get();
         return view('web.home')->with($data);
     }
 

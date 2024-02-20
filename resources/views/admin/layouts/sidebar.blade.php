@@ -80,6 +80,12 @@
                                 <span class="pcoded-mtext">Home Sliders</span>
                             </a>
                         </li>
+                        <li class="{{ CommonHelper::adminMenu(3,['home-product-sliders'],'cms')[1] }}">
+                            <a href="{{ CommonHelper::admin('cms/home-product-sliders') }}">
+                                <span class="pcoded-micon"><i class="fa fa-list"></i></span>
+                                <span class="pcoded-mtext">Home Product Slider</span>
+                            </a>
+                        </li>
                         <li class="{{ CommonHelper::adminMenu(3,['categories'],'cms')[1] }}">
                             <a href="{{ CommonHelper::admin('cms/categories') }}">
                                 <span class="pcoded-micon"><i class="fa fa-list"></i></span>
