@@ -39,7 +39,7 @@ class HomeController extends Controller
     }
 
     public function products(){
-        $data['_title'] = 'Products';
+        $data['_title'] = 'Our Products';
         $data['categories'] = MasterCategories::select('name','id','slug')->where('is_deleted','0')->orderby('sort','asc')->get();
         $data['list']   = ProductModel::with('_category')->orderby('name','asc');
         return view('web.product.all')->with($data);

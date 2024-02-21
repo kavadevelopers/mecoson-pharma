@@ -31,40 +31,54 @@
     }
     /*end new theme */
 
-
-    .products_page .category {
-        padding: 20px 0 20px 2px;
+    .product-details-image img{
+        max-width: 100%;
+        width: 100%;    
     }
+
     .products_page .b-gray {
-        background-color: #f6f6f6;
+        background-color: #ffffff;
+        border-radius: 10px;
+        border: solid 1px #ebebeb;
     }
     .products_page .category h3 {
         padding-bottom: 15px;
+        padding-top: 15px;
+        border-bottom: 3px #058b8c solid;
+        font-size: 1.2rem;
     }
 
     .products_page .t-blue {
-        color: #107dac;
+        color: #058b8c;
     }
     .products_page .category ul {
         padding: 0;
         margin: 0;
     }
+    .products_page .category ul li:hover{
+        background: #f6f6f6;
+    }
     .products_page .category ul li {
+        font-size: 0.9rem;  
         list-style: none;
-        background: #fff;
-        border-right: solid 4px #f6f6f6;
-        margin-top: 2px;
+        margin: 0;
+    }
+    .products_page .category ul li{
+        border-bottom: solid 1px #ebebeb;
+    }
+    .products_page .category ul li:last-child{
+        border: 0;
     }
     .products_page .category ul li.active {
-        background: #107dac;
-        border-right: solid 8px #107dac;
+        background: #058b8c;
+        border-right: solid 8px #058b8c;
     }
     .products_page .category ul li.active a{
         color: #fff;
     }
     
     .products_page .category ul li.active a,.products_page .category ul li.active a:hover {
-        color: #fff;
+        color: #fff !important;
     }
     .products_page .category ul li a {
         color: #000;
@@ -72,6 +86,7 @@
         padding: 10px 20px;
         display: inline-block;
         vertical-align: middle;
+        
     }
     .products_page .float-100 {
         float: left;
@@ -93,19 +108,24 @@
         width: 25%;
         margin: -1px;
     }
+    .products_page .list li .text:hover{
+        background: #f6f6f6;
+    }
     .products_page .list li .text {
         border: solid 1px #ebebeb;
-        background: #F6F6F6;
-        padding: 8px;
+        background: #ffffff;
         text-align: center;
         color: #000;
         display: flex;
         justify-content: center;
         align-items: center;
         width: 100%;
+        font-size: 0.7rem;
+        padding: 8px;
     }
     .products_page .list li .text a {
         color: #000;
+        
     }
     @media (max-width: 767px){
         .products_page .list li {
@@ -295,7 +315,7 @@
         padding-bottom: 50px;
     }
     .product-details-desc .top-title {
-        color: #107dac;
+        color: #058b8c;
         font-size: 14px;
         display: block;
         margin-bottom: 10px;

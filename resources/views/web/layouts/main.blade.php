@@ -41,6 +41,7 @@
 		<link href="{{ url('themes/pharma/css/animate.css') }}" rel="stylesheet">
 		<link href="{{ url('themes/pharma/css/pink-theme.css') }}" rel="stylesheet">
 		<link href="{{ url('themes/pharma/css/responsive.css') }}" rel="stylesheet">
+		<script src="{{ url('themes/pharma/js/jquery-3.7.0.min.js') }}"></script>
 		{{-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" /> --}}
 		@include('web.layouts.style')
 	</head>
@@ -320,7 +321,7 @@
 
 		<!-- EXTERNAL SCRIPTS
 		============================================= -->	
-		<script src="{{ url('themes/pharma/js/jquery-3.7.0.min.js') }}"></script>
+		
 		<script src="{{ url('themes/pharma/js/bootstrap.min.js') }}"></script>	
 		<script src="{{ url('themes/pharma/js/modernizr.custom.js') }}"></script>
 		<script src="{{ url('themes/pharma/js/jquery.easing.js') }}"></script>

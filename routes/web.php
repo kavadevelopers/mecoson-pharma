@@ -41,11 +41,11 @@ Route::get('mission-vision-values', [HomeController::class,'missionVisonValues']
 Route::get('quality-policy', [HomeController::class,'qualityPolicy']);
 Route::get('history-development', [HomeController::class,'globalPresence']);
 
-// Route::get('category/{slug}', [HomeController::class,'category']);
+Route::get('category/{slug}', [HomeController::class,'category']);
 
-// Route::get('products', [HomeController::class,'products']);
-// Route::get('product/{slug}', [HomeController::class,'product']);
-// Route::post('product-enquiry', [HomeController::class,'enquiry']);
+Route::get('products', [HomeController::class,'products']);
+Route::get('product/{slug}', [HomeController::class,'product']);
+Route::post('product-enquiry', [HomeController::class,'enquiry']);
 
 Route::get('downloads', [HomeController::class,'downloads']);
 Route::get('career', [HomeController::class,'career']);

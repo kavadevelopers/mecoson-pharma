@@ -107,7 +107,7 @@ class CommonHelper
     }   
 
     public static function getProductImage($item){
-        if(Storage::disk('public_upload')->exists('products/'.$item)){
+        if(Storage::disk('public_upload')->exists('uploads/products/'.$item)){
             return url('uploads/products/'.$item);
         }else{
             return url('themes/thumbs/land.jpg');
