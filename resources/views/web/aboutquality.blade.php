@@ -1,50 +1,181 @@
 @extends('web.layouts.main')
 @section('content')
 
-<section id="pricing-1" class="gr--whitesmoke pb-40 inner-page-hero pricing-section">
+<section class="ct-01 content-section division inner-page-hero">
     <div class="container">
 
 
-        <!-- SECTION TITLE -->	
-        <div class="row justify-content-center">	
-            <div class="col-md-10 col-lg-8">
-                <div class="section-title mb-70">	
+        <!-- SECTION CONTENT (ROW) -->	
+        <div class="row d-flex align-items-center">
 
-                    <!-- Title -->	
-                    <h2 class="s-52 w-700">{{ $_title }}</h2>
-                    
+
+            <!-- TEXT BLOCK -->	
+            <div class="col-md-6 order-last order-md-2">
+                <div class="txt-block left-column wow fadeInRight">
+
+
+                    <!-- TEXT BOX -->	
+                    <div class="txt-box">
+
+                        <!-- Title -->	
+                        <h3 class="s-24 w-700">QUALITY MANAGEMENT</h3>
+
+                        <!-- Text -->	
+                        <p>MECOSON PHARMA adheres to highest standards of Quality, and we put our best foot forward to stain at every level by strict compliance of all rules and regulations. Our manufacturing facility is state-of-the-art with all quality systems and processes which enables us to comply with cGMP. We aim at achieving internationally accepted Quality standards for all our products. To accomplish this we deploy rigorous testing and elaborate in-process control procedures backed by Robust Quality Management system with Core Standard Operating Procedures detailed across the company ensure the best quality products.</p>
+                    </div>	<!-- END TEXT BOX -->	
+
+                </div>
+            </div>	<!-- END TEXT BLOCK -->	
+
+
+            <!-- IMAGE BLOCK -->
+            <div class="col-md-6 order-first order-md-2">
+                <div class="img-block right-column wow fadeInLeft">
+                    <img class="img-fluid" src="{{ url('themes/images/quality.png') }}" alt="content-image">
                 </div>
             </div>
-            <div class="col-md-12 col-lg-12">
-                <div>
-                    <p class="color--grey">In the context of an increasingly challenging healthcare environment, we are reinforcing our culture, boosting our skills and building a diverse workforce. Quality in everything we do is integral to all our working practices. It is critical to the success of our business and our long term sustainability and profitability.</p>
-                    <p class="color--grey">Products we supply are in compliance with global standards and which is globally approved and acceptable. Also, Mecoson Labs follows the standards in manufacturing which are given by FDA Approved facilities. We understand the need for high-quality drugs at convinient price and this is the reason, we are committed to fulfilling this demand with our quality products.</p> 
-                    <p class="color--grey">Our products are made in well established and certified facilities having quality certificates like</p>
-                </div>	
-            </div>
-        </div>
 
-        <div class="row align-items-center">
-            <div class="col-lg-3">
-                <div class="about-content">
-                    <ul>
-                        <li><span class="flaticon-check"></span> FDCA License</li>
-                        <li><span class="flaticon-check"></span> WHO-GMP</li>
-                        <li><span class="flaticon-check"></span> GLP</li>
-                        <li><span class="flaticon-check"></span> ISO</li>
-                        <li><span class="flaticon-check"></span> FSSAI</li>
-                        <li><span class="flaticon-check"></span> HALAL</li>
-                        <li><span class="flaticon-check"></span> AYUSH</li>
-                        <li><span class="flaticon-check"></span> CE</li>
-                    </ul>
+
+        </div>	<!-- END SECTION CONTENT (ROW) -->	
+
+
+    </div>	   <!-- End container -->
+</section>
+
+<section class="ct-01 content-section division pb-40">
+    <div class="container">
+
+
+        <!-- SECTION CONTENT (ROW) -->	
+        <div class="row d-flex align-items-center">
+
+
+            <!-- TEXT BLOCK -->	
+            <div class="col-md-12 order-last order-md-2">
+                <div class="txt-block left-column wow fadeInRight">
+
+
+                    <!-- TEXT BOX -->	
+                    <div class="txt-box">
+
+                        <!-- Title -->	
+                        <h3 class="s-24 w-700">QUALITY CONTROL & QUALITY ASSURANCE SYSTEM</h3>
+
+                        <!-- Text -->	
+                        <p>Quality control labs equipped with high-precision instruments ensures excellence is maintained consistently across all the production processes. All receivable and input materials that goes into production are evaluated as per the standard specifications. The complete thorough analysis & certification of materials, intermediates & finished product is done. Calibration program for all analytical instruments and stability program for finished products gives assurance that the product which leaves our plants are of highest quality standards</p>
+                        <p>Quality Assurance Department has an excellent team of professionals having good understanding of concepts of quality systems and cGMP guidelines established by FDCA. A Quality manual governing all cGMP related activities with Standard Operating Procedures detailed for all activities has been developed. Quality Assurance review of product documentation along with annual product quality review, support to DMF fillings, through investigation of any process deviation makes us a partner of choice for our customers.</p>
+                    </div>	<!-- END TEXT BOX -->	
+
                 </div>
             </div>
-            <div class="col-lg-9">
-                <img src="{{ url('themes/web/img/about-quality.png') }}" style="max-width: 100%"/>
+
+
+        </div>	<!-- END SECTION CONTENT (ROW) -->	
+
+
+    </div>	   <!-- End container -->
+</section>
+
+<section class="ct-01 content-section division pb-40">
+    <div class="container">
+
+
+        <!-- SECTION CONTENT (ROW) -->	
+        <div class="row d-flex align-items-center">
+
+
+            <!-- TEXT BLOCK -->	
+            <div class="col-md-12 order-last order-md-2">
+                <div class="txt-block left-column wow fadeInRight">
+
+
+                    <!-- TEXT BOX -->	
+                    <div class="txt-box">
+
+                        <!-- Title -->	
+                        <h3 class="s-24 w-700">GMP MANUFACTURING</h3>
+
+                        <!-- Text -->	
+                        <p>The professionals at MECOSON PHARMA have more than years of cumulative experience in process development, scale up, and cGMP (Current Good Manufacturing Practice standards as defined by the FDCA). With fully-controlled  cGMP systems, rigorous quality system and experienced management, we can provide the lowest cost of manufacturing of our products. </p>
+                        
+                    </div>	<!-- END TEXT BOX -->	
+
+                </div>
             </div>
-        </div>
-        
-    </div>
+
+
+        </div>	<!-- END SECTION CONTENT (ROW) -->	
+
+
+    </div>	   <!-- End container -->
+</section>
+
+<section class="ct-01 content-section division pb-40">
+    <div class="container">
+
+
+        <!-- SECTION CONTENT (ROW) -->	
+        <div class="row d-flex align-items-center">
+
+
+            <!-- TEXT BLOCK -->	
+            <div class="col-md-12 order-last order-md-2">
+                <div class="txt-block left-column wow fadeInRight">
+
+
+                    <!-- TEXT BOX -->	
+                    <div class="txt-box">
+
+                        <!-- Title -->	
+                        <h3 class="s-24 w-700">QUALITY AND COMPLIANCES</h3>
+
+                        <!-- Text -->	
+                        <p>MECOSON PHARMA maintains the highest level of quality and compliance in its plants, we provide rigid quality controls, standard operating procedures (SOPs), training, and rigorous testing. Experienced Quality Assurance staff and professionals review operations on a consistent basis</p>
+                        
+                    </div>	<!-- END TEXT BOX -->	
+
+                </div>
+            </div>
+
+
+        </div>	<!-- END SECTION CONTENT (ROW) -->	
+
+
+    </div>	   <!-- End container -->
+</section>
+
+<section class="ct-01 content-section division pb-40">
+    <div class="container">
+
+
+        <!-- SECTION CONTENT (ROW) -->	
+        <div class="row d-flex align-items-center">
+
+
+            <!-- TEXT BLOCK -->	
+            <div class="col-md-12 order-last order-md-2">
+                <div class="txt-block left-column wow fadeInRight">
+
+
+                    <!-- TEXT BOX -->	
+                    <div class="txt-box">
+
+                        <!-- Title -->	
+                        <h3 class="s-24 w-700">ENVIRONMENT, HEALTH AND SAFETY</h3>
+
+                        <!-- Text -->	
+                        <p>As a part of its on-going process of safeguarding EHS, MECOSON PHARMA has implemented measures, which assures employees with a healthy & safe workplace and communities bordering its facilities a clean environmen</p>
+                        
+                    </div>	<!-- END TEXT BOX -->	
+
+                </div>
+            </div>
+
+
+        </div>	<!-- END SECTION CONTENT (ROW) -->	
+
+
+    </div>	   <!-- End container -->
 </section>
 
 

@@ -1,51 +1,47 @@
 @extends('web.layouts.main')
 @section('content')
 
-<section id="pricing-1" class="gr--whitesmoke pb-40 inner-page-hero pricing-section">
+<section class="ct-01 content-section division inner-page-hero pb-40">
     <div class="container">
 
 
-        <!-- SECTION TITLE -->	
-        <div class="row justify-content-center">	
-            <div class="col-md-10 col-lg-8">
-                <div class="section-title mb-70">	
-
-                    <!-- Title -->	
-                    <h2 class="s-52 w-700">{{ $_title }}</h2>
-
-                </div>	
-            </div>
-        </div>	<!-- END SECTION TITLE -->	
+        <!-- SECTION CONTENT (ROW) -->	
+        <div class="row d-flex align-items-center">
 
 
-        <!-- PRICING TABLES -->
-        <div class="pricing-1-wrapper">
-            <div class="row row-cols-1 row-cols-md-12">
+            <!-- TEXT BLOCK -->	
+            <div class="col-md-6 order-last order-md-2">
+                <div class="txt-block left-column wow fadeInRight">
 
 
-                <!-- STARTER PLAN -->
-                <div class="col">
-                    <div id="pt-1-1" class="p-table pricing-1-table bg--white-100 block-shadow r-12 wow fadeInUp">
+                    <!-- TEXT BOX -->	
+                    <div class="txt-box">
+
+                        <!-- Title -->	
+                        <h3 class="s-24 w-700">{{ $_title }}</h3>
+
+                        <!-- Text -->	
+                        <p>Mecoson Pharmaceuticals Private Limited is one of the fastest growing pharmaceutical company located at Pipodara, Surat, India. The company engaged in manufacturing wide range of pharmaceutical formulation in forms Tablets, Capsules and Oral Liquid. We have all the major utilities to produce highest quality products.</p>
+                        <p>Accumulated experience in marketing & manufacturing of pharmaceuticals products, innovative approach of managing &optimizing business processes allowed us to become actively present in domestic &international market. We offer a highest quality products, most competitive price & timely delivery to our valuable customers globally.</p>
+                    </div>	<!-- END TEXT BOX -->	
+
+                </div>
+            </div>	<!-- END TEXT BLOCK -->	
 
 
-                        <!-- TABLE HEADER -->
-                        <div class="pricing-table-header">
-                            <div class="price">								
-                                <p class="color--grey">Mecoson Pharmaceuticals Private Limited is one of the fastest growing pharmaceutical company located at Pipodara, Surat, India. The company engaged in manufacturing wide range of pharmaceutical formulation in forms Tablets, Capsules and Oral Liquid. We have all the major utilities to produce highest quality products.</p>
-                                <p class="color--grey">Accumulated experience in marketing & manufacturing of pharmaceuticals products, innovative approach of managing &optimizing business processes allowed us to become actively present in domestic &international market. We offer a highest quality products, most competitive price & timely delivery to our valuable customers globally.</p>
-                            </div>
-                        </div>
-
-                    </div>
+            <!-- IMAGE BLOCK -->
+            <div class="col-md-6 order-first order-md-2">
+                <div class="img-block right-column wow fadeInLeft">
+                    <img class="img-fluid" src="{{ url('themes/images/about.jpg') }}" alt="content-image">
                 </div>
             </div>
-        </div>	<!-- PRICING TABLES -->
 
-    
+
+        </div>	<!-- END SECTION CONTENT (ROW) -->	
+
+
     </div>	   <!-- End container -->
 </section>
-
-
 
 
 @stop
