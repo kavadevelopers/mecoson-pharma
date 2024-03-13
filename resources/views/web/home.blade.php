@@ -116,7 +116,7 @@
 
 									<!-- Text -->
 									<div class="fbox-txt">
-										<h6 class="s-20 w-700">Tablets </h6>
+										<h6 class="s-20 w-700">Tablets</h6>
 										<p>Luctus augue egestas undo ultrice and quisque lacus</p>
 									</div>
 
@@ -174,7 +174,7 @@
 
 									<!-- Text -->
 									<div class="fbox-txt">
-										<h6 class="s-20 w-700">Syrup </h6>
+										<h6 class="s-20 w-700">Syrup</h6>
 										<p>Luctus augue egestas undo ultrice and quisque lacus</p>
 									</div>
 
@@ -250,33 +250,29 @@
 							<div class="txt-block right-column wow fadeInLeft">
 
 								<!-- Section ID -->	
-						 		<span class="section-id">Enhance Engagement</span>
+						 		<span class="section-id">OUR COMPANY</span>
 
 								<!-- Title -->	
-								<h2 class="s-46 w-700">Engage your most valuable visitors</h2>
+								<h2 class="s-46 w-700">Make your most valuable products</h2>
 
 								<!-- Text -->	
-								<p>Sodales tempor sapien quaerat ipsum undo congue laoreet turpis neque auctor turpis 
-									vitae dolor luctus placerat magna and ligula cursus purus vitae purus an ipsum suscipit
-								</p>
+								<p>Accumulated experience in marketing & manufacturing of pharma products, innovative approach of managing & optimizing business processes allowed us to become actively present in the market. We offer a highest quality products, most competitive prices & timely delivery to our valuable customers</p>
 
 								<!-- Small Title -->	
-								<h5 class="s-24 w-700">Digits that define growth</h5>
+								<h5 class="s-24 w-700">Quality that define products</h5>
 
 								<!-- List -->	
 								<ul class="simple-list">
 
 									<li class="list-item">
-										<p>Sapien quaerat tempor an ipsum laoreet purus and sapien dolor an ultrice ipsum 
-										   aliquam undo congue cursus dolor
-										</p>
+										<p>We are committed to highest level of quality and so, we have inde-pendent Quality Control laboratory to make best quality products.</p>
 									</li>
 
-									<li class="list-item">
+									{{-- <li class="list-item">
 										<p class="mb-0">Purus suscipit cursus vitae cubilia magnis volute egestas vitae 
 										   sapien turpis ultrice auctor congue magna placerat
 										</p>
-									</li>
+									</li> --}}
 
 								</ul>
 
@@ -312,12 +308,10 @@
 								<div class="txt-box">
 
 									<!-- Title -->	
-									<h5 class="s-24 w-700">Solution that grows with you</h5>
+									<h5 class="s-24 w-700">Third Party Manufacturing of Finished Formulations</h5>
 
 									<!-- Text -->	
-									<p>Sodales tempor sapien quaerat ipsum undo congue laoreet turpis neque auctor turpis 
-									   vitae dolor luctus placerat magna and ligula cursus purus vitae purus an ipsum suscipit
-									</p>
+									<p>We are one of the most promising contract manufacturers in India, with 12 years of core experience in pharma industry. State of the art manufacturing facilities producing formulations in various dosages forms (Tablets, Capsules and Oral Liquid) and therapeutic segments for many pharma companies</p>
 
 								</div>	<!-- END TEXT BOX -->	
 
@@ -325,28 +319,27 @@
 								<!-- TEXT BOX -->	
 								<div class="txt-box mb-0">
 
-									<!-- Title -->	
+									{{-- <!-- Title -->	
 									<h5 class="s-24 w-700">Connect your data sources</h5>
 
 									<!-- Text -->	
 									<p>Tempor sapien sodales quaerat ipsum undo congue laoreet turpis neque auctor turpis 
 										vitae dolor luctus placerat magna and ligula cursus purus an ipsum vitae suscipit 
 										purus  
-									</p>
+									</p> --}}
 
 									<!-- List -->	
 									<ul class="simple-list">
 
 										<li class="list-item">
-											<p>Tempor sapien quaerat an ipsum laoreet purus and sapien dolor an ultrice ipsum
-											   aliquam undo congue dolor cursus 
-											</p>
+											<p class="mb-0">Wide Range of Quality Product</p>
 										</li>
 
 										<li class="list-item">
-											<p class="mb-0">Cursus purus suscipit vitae cubilia magnis volute egestas vitae 
-											   sapien turpis ultrice auctor congue magna placerat
-											</p>
+											<p class="mb-0">Timely Delivery</p>
+										</li>
+										<li class="list-item">
+											<p class="mb-0">Lowest Rates</p>
 										</li>
 
 									</ul>
@@ -394,12 +387,12 @@
 
 										<!-- Digit -->
 										<div class="statistic-block-digit text-center">
-											<h2 class="s-46 statistic-number"><span class="count-element">89</span>k</h2>
+											<h2 class="s-46 statistic-number"><span class="count-element">180</span>+</h2>
 										</div>
 
 										<!-- Text -->
 										<div class="statistic-block-txt color--grey">
-											<p class="p-md">Porta justo integer and velna vitae auctor</p>
+											<p class="p-md">Product Permissions</p>
 										</div>
 
 									</div>
@@ -414,12 +407,12 @@
 
 										<!-- Digit -->
 										<div class="statistic-block-digit text-center">
-											<h2 class="s-46 statistic-number"><span class="count-element">76</span>%</h2>
+											<h2 class="s-46 statistic-number"><span class="count-element">125</span>+</h2>
 										</div>
 
 										<!-- Text -->
 										<div class="statistic-block-txt color--grey">
-											<p class="p-md">Ligula magna suscipit vitae and rutrum</p>
+											<p class="p-md">Product Brands</p>
 										</div>
 
 									</div>
@@ -435,13 +428,13 @@
 										<!-- Digit -->
 										<div class="statistic-block-digit text-center">
 											<h2 class="s-46 statistic-number">
-												<span class="count-element">4</span>.<span class="count-element">93</span>
+												<span class="count-element">35</span>+
 											</h2>
 										</div>
 
 										<!-- Text -->
 										<div class="statistic-block-txt color--grey">
-											<p class="p-md">Sagittis congue augue egestas an egestas</p>
+											<p class="p-md">Customers</p>
 										</div>
 
 									</div>
@@ -525,7 +518,7 @@
 								<h2 class="s-50 w-700">The Complete Solutions</h2>	
 
 								<!-- Text -->	
-								<p class="s-21 color--grey">Ligula risus auctor tempus magna feugiat lacinia.</p>
+								{{-- <p class="s-21 color--grey">Ligula risus auctor tempus magna feugiat lacinia.</p> --}}
 									
 							</div>	
 						</div>
@@ -548,8 +541,8 @@
 
 									<!-- Text -->
 									<div class="fbox-txt">
-										<h6 class="s-22 w-700">Intuitive Dashboard</h6>
-										<p>Luctus egestas augue undo ultrice aliquam in lacus congue dapibus</p>
+										<h6 class="s-22 w-700">Tablets Manufacturing</h6>
+										{{-- <p>Luctus egestas augue undo ultrice aliquam in lacus congue dapibus</p> --}}
 									</div>
 
 		 						</div>
@@ -567,8 +560,8 @@
 
 									<!-- Text -->
 									<div class="fbox-txt">
-										<h6 class="s-22 w-700">Effortless Integration</h6>
-										<p>Tempor laoreet augue undo ultrice aliquam in lacusq luctus feugiat</p>
+										<h6 class="s-22 w-700">Capsules Manufacturing</h6>
+										{{-- <p>Tempor laoreet augue undo ultrice aliquam in lacusq luctus feugiat</p> --}}
 									</div>
 
 		 						</div>
@@ -586,8 +579,8 @@
 
 									<!-- Text -->
 									<div class="fbox-txt">
-										<h6 class="s-22 w-700">Engagement Analysis</h6>
-										<p>Egestas luctus augue undo ultrice aliquam in lacus feugiat cursus</p>
+										<h6 class="s-22 w-700">Oral Liquid Manufacturing</h6>
+										{{-- <p>Egestas luctus augue undo ultrice aliquam in lacus feugiat cursus</p> --}}
 									</div>
 
 		 						</div>
