@@ -117,7 +117,7 @@
 									<!-- Text -->
 									<div class="fbox-txt">
 										<h6 class="s-20 w-700">Tablets</h6>
-										<p>Luctus augue egestas undo ultrice and quisque lacus</p>
+										<p>Multiple Shape and Sizes Tablet Manufacturing Facility</p>
 									</div>
 
 		 						</div>
@@ -147,7 +147,7 @@
 									<!-- Text -->
 									<div class="fbox-txt">
 										<h6 class="s-20 w-700">Capsules</h6>
-										<p>Luctus augue egestas undo ultrice and quisque lacus</p>
+										<p>Automatic machines for Capsule filling </p>
 									</div>
 
 		 						</div>
@@ -178,7 +178,7 @@
 									<!-- Text -->
 									<div class="fbox-txt">
 										<h6 class="s-20 w-700">Syrup</h6>
-										<p>Luctus augue egestas undo ultrice and quisque lacus</p>
+										<p>Fully automatic syrup manufacturing facility</p>
 									</div>
 
 		 						</div>
@@ -209,7 +209,7 @@
 									<!-- Text -->
 									<div class="fbox-txt">
 										<h6 class="s-20 w-700">Third Party Manufacturing</h6>
-										<p>Luctus augue egestas undo ultrice and quisque lacus</p>
+										<p>Wide range of products with best service and prices</p>
 									</div>
 
 		 						</div>

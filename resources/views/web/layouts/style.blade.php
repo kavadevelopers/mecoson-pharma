@@ -1,4 +1,7 @@
 <style>
+    p{
+        text-align: justify;
+    }
     .justify-text{
         text-align: justify;
     }
