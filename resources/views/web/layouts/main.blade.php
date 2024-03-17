@@ -199,7 +199,7 @@
 									<li><p><a href="{{ url('mission-vision-values') }}">Vision & Mission</a></p></li>	
 									<li><p><a href="{{ url('quality-policy') }}">Quality Assurance</a></p></li>					
 									<li><p><a href="{{ url('products') }}">Products</a></p></li>			
-									{{-- <li><p><a href="{{ url('downloads') }}">Downloads</a></p></li>			 --}}
+									<li><p><a href="{{ url('downloads') }}">Downloads</a></p></li>			
 									<li><p><a href="{{ url('career') }}">Career</a></p></li>			
 									<li><p><a href="{{ url('contact-us') }}">Contact Us</a></p></li>	
 								</ul>

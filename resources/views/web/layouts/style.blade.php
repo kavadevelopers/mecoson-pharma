@@ -1,4 +1,8 @@
 <style>
+    .hover--theme:hover, .white-scroll .scroll .hover--theme:hover, .black-scroll .scroll .hover--theme:hover{
+        background: #058b8c !important;
+        border-color:  #058b8c !important;
+    }
     .icon-kava .fa{
         font-size: 30px;
         background: #058b8c;
