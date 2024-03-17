@@ -66,7 +66,7 @@
             </div>
             <div class="card">
                 <div class="card-header">
-                    <h5>PCD PHARMA FRANCHISE DOMESTIC SALES</h5>
+                    <h5>SALES</h5>
                 </div>
                 <div class="card-block">
                     <div class="row">
@@ -85,7 +85,7 @@
                     </div>
                 </div>
             </div>
-            <div class="card">
+            {{-- <div class="card">
                 <div class="card-header">
                     <h5>EXPORTS</h5>
                 </div>
@@ -105,7 +105,7 @@
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> --}}
             <div class="card">
                 <div class="card-header">
                     <h5>ACCOUNTS & LOGISTICS</h5>
