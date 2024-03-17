@@ -1,6 +1,16 @@
 <style>
+    .icon-kava .fa{
+        font-size: 30px;
+        background: #058b8c;
+        color: #fff;
+        padding: 16px 20PX;
+        border-radius: 15PX;
+    }
     p{
         text-align: justify;
+    }
+    .fbox-txt p{
+        text-align: center;
     }
     .justify-text{
         text-align: justify;

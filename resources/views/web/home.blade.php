@@ -245,7 +245,7 @@
 						<!-- IMAGE BLOCK -->
 						<div class="col-md-6">
 							<div class="img-block left-column wow fadeInRight">
-								<img class="img-fluid" src="{{ url('themes/pharma/images/img-10.png') }}" alt="content-image">
+								<img class="img-fluid" src="{{ url('themes/images/our-company.png') }}" alt="content-image">
 							</div>
 						</div>
 
@@ -359,7 +359,7 @@
 						<!-- IMAGE BLOCK -->
 						<div class="col-md-6 order-first order-md-2">
 							<div class="img-block right-column wow fadeInLeft">
-								<img class="img-fluid" src="{{ url('themes/pharma/images/img-06.png') }}" alt="content-image">
+								<img class="img-fluid" src="{{ url('themes/images/third-party.png') }}" alt="content-image">
 							</div>
 						</div>
 
@@ -541,7 +541,7 @@
 
 		 							<!-- Image -->
 									<div class="fbox-img gr--whitesmoke h-175">
-										<img class="img-fluid" src="{{ url('themes/pharma/images/f_01.png') }}" alt="feature-image">
+										<img class="img-fluid" src="{{ url('themes/images/medicine-small.png') }}" alt="feature-image">
 									</div>
 
 									<!-- Text -->
@@ -560,7 +560,7 @@
 
 		 							<!-- Image -->
 									<div class="fbox-img gr--whitesmoke h-175">
-										<img class="img-fluid" src="{{ url('themes/pharma/images/f_05.png') }}" alt="feature-image">
+										<img class="img-fluid" src="{{ url('themes/images/capsule-small.png') }}" alt="feature-image">
 									</div>
 
 									<!-- Text -->
@@ -579,7 +579,7 @@
 
 		 							<!-- Image -->
 									<div class="fbox-img gr--whitesmoke h-175">
-										<img class="img-fluid" src="{{ url('themes/pharma/images/f_02.png') }}" alt="feature-image">
+										<img class="img-fluid" src="{{ url('themes/images/syrup-small.png') }}" alt="feature-image">
 									</div>
 
 									<!-- Text -->
