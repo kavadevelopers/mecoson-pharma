@@ -245,7 +245,7 @@
 						<!-- IMAGE BLOCK -->
 						<div class="col-md-6">
 							<div class="img-block left-column wow fadeInRight">
-								<img class="img-fluid" src="{{ url('themes/images/our-company.png') }}" alt="content-image">
+								<img class="img-fluid" src="{{ url('themes/images/our-company.png') }}" alt="content-image" style="max-height: 500px;">
 							</div>
 						</div>
 
@@ -292,7 +292,8 @@
 			</section>	<!-- END TEXT CONTENT -->
 
 
-
+			<!-- DIVIDER LINE -->
+			<hr class="divider">
 
 			<!-- TEXT CONTENT
 			============================================= -->
@@ -359,7 +360,7 @@
 						<!-- IMAGE BLOCK -->
 						<div class="col-md-6 order-first order-md-2">
 							<div class="img-block right-column wow fadeInLeft">
-								<img class="img-fluid" src="{{ url('themes/images/third-party.png') }}" alt="content-image">
+								<img class="img-fluid" src="{{ url('themes/images/third-party.png') }}" alt="content-image" style="max-height: 500px;">
 							</div>
 						</div>
 
