@@ -18,7 +18,7 @@
 
                     <!-- Text -->	
                     <p>Empower yourself with the multifaceted work environment and get the chance to be a part of a workforce. Our employees are our assets and we are always in need of good employees who are looking for challenging & worthwhile career.</p>
-                    <p>At Mecoson Labs, we seek to discover and champion the latest, most promising advancements against the world’s greatest challenges in international business.</p>
+                    <p>At Mecoson Pharma, we seek to discover and champion the latest, most promising advancements against the world’s greatest challenges in international business.</p>
 
                     <a href="{{ url('current-jobs') }}" class="btn r-04 btn--theme">We're Hiring</a>
 

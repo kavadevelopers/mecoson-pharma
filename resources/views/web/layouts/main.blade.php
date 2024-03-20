@@ -181,7 +181,7 @@
 							<div class="footer-info" style="margin-bottom: 10px;">
 								<img class="footer-logo" src="{{ url('themes/logos/logo.png') }}" alt="footer-logo">
 							</div>	
-							<p style="text-align: justify;margin-top: 10px;">A reputed pharmaceutical manufacturer and exporter, dedicated to producing and supplying high-quality pharmaceutical products. With a strong focus on research, innovation and compliance with international standards, cater to global markets, supplying safe and effective medications.</p>
+							<p style="text-align: justify;margin-top: 10px; margin-right:25px;">A reputed pharmaceutical manufacturer and exporter, dedicated to producing and supplying high-quality pharmaceutical products. With a strong focus on research, innovation and compliance with international standards, cater to global markets, supplying safe and effective medications.</p>
 						</div>	
 
 
@@ -210,7 +210,7 @@
 
 
 						<!-- FOOTER LINKS -->
-						<div class="col-sm-4 col-lg-4 col-xl-3">
+						<div class="col-sm-4 col-lg-3 col-xl-2">
 							<div class="footer-links fl-3">
 												
 								<!-- Title -->
@@ -228,7 +228,7 @@
 
 
 						<!-- FOOTER NEWSLETTER FORM -->
-						<div class="col-sm-10 col-md-8 col-lg-3 col-xl-3">
+						<div class="col-sm-10 col-md-8 col-lg-4 col-xl-4">
 							<div class="footer-links fl-3">
 												
 								<!-- Title -->

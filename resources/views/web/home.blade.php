@@ -397,7 +397,7 @@
 
 										<!-- Text -->
 										<div class="statistic-block-txt color--grey">
-											<p class="p-md">Product Permissions</p>
+											<p class="p-md">Product <br>Permissions</p>
 										</div>
 
 									</div>
@@ -417,7 +417,7 @@
 
 										<!-- Text -->
 										<div class="statistic-block-txt color--grey">
-											<p class="p-md">Product Brands</p>
+											<p class="p-md">Product <br>Brands</p>
 										</div>
 
 									</div>
@@ -439,7 +439,7 @@
 
 										<!-- Text -->
 										<div class="statistic-block-txt color--grey">
-											<p class="p-md">Customers</p>
+											<p class="p-md">Our  <br>Customers</p>
 										</div>
 
 									</div>
